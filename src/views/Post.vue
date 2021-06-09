@@ -1,7 +1,6 @@
 <template>
     <div class="app">
         <navbar/>
-        <div>
         <b-card
         :footer="footerText"
         class="card">
@@ -11,8 +10,6 @@
         <b-text class="content">{{post.content}}</b-text>
         </b-card>
         </div>
-       
-    </div>
 </template>
 
 <style lang="scss" scoped>
@@ -27,7 +24,7 @@
         font-family: Avenir, Helvetica, Arial, sans-serif;
     }
 .content{
-    letter-spacing: 1px;
+    //letter-spacing: 1px;
     text-align: justify;
 }
 .title{

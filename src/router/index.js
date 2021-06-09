@@ -27,6 +27,10 @@ const routes = [
     path: '/edit/:id',
     name: 'EditPost',
     component: () => import('../views/EditPost.vue')
+  },
+    {
+    path: '*',
+    component: () => import('../views/NotFoundPage.vue')
   }
 ]
 

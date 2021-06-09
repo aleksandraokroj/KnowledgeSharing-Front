@@ -72,17 +72,19 @@
     </b-alert>
             </b-card>
         </div>
+        <Footer/>
     </div>
 </template>
 
 <script>
 import navbar from '../components/Navbar.vue';
 import $ from 'jquery';
+import Footer from '../components/Footer.vue'
 
 
     export default {
         name: 'CreatePost',
-        components: { navbar },
+        components: { navbar, Footer },
         data() {
             return {
                 post: {
